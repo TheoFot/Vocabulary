@@ -80,8 +80,8 @@ namespace Vocabulary
             {
 
                 string linefromVocabulary;
-                string[] WordstoTranslate = new string[250];
-                string[] TranslatedWords = new string[250];
+                string[] WordstoTranslate = new string[350];
+                string[] TranslatedWords = new string[350];
 
                 try
                 {
@@ -111,7 +111,7 @@ namespace Vocabulary
 
 
                 Random random = new Random();
-                int randomWord = random.Next(250);
+                int randomWord = random.Next(350);
                 Vok wordtotranslate = new Vok();
                 wordtotranslate.Z = TranslatedWords[randomWord];
                 
