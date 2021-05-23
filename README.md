@@ -1,4 +1,4 @@
 # Vocabulary
 
 this is my project to study C#.
-this is the vocabulary project
+This is a vocabulary project
